@@ -1,8 +1,8 @@
-//18 08 2024 Pérez Villaneuva Eduardo Tadeo
+//18 08 2024 Moreno Bernal Angel
 //alert("desde js")
 
 /*
-aaaaaaaaaaaaaaaaaaaaaaa 
+
 varias
 lineas
 a
