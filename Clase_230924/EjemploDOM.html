@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejemplo de DOM</title>
-</head>
-<body>
-    <ul>
-        <li id="titulo">Texto original</li>
-    </ul>
-    <button onclick="cambiarTexto()">Cambiar Texto</button>
 
-    <script>
-        function cambiarTexto() {
-            document.getElementById("titulo").innerHTML = "Texto cambiado usando el DOM";
-        }
-    </script>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ejemplo de DOM</title>
+</head>
+
+<body>
+	<h1 id="titulo">Título original</h1>
+	<button onclick="cambiarTexto()">Cambiar texto</button>
+
+	<script>
+		function cambiarTexto() {
+			document.getElementById('titulo').innerText = "Título cambiado usando el DOM";
+		}
+	</script>
 </body>
+
 </html>
